@@ -1,0 +1,16 @@
+<testsuite failures="0" name="src/test/java/KarateAPI/Patch.feature" skipped="0" tests="1" time="2.00263">
+  <testcase classname="src.test.java.KarateAPI.Patch" name="Create user" time="2.00263">
+    <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
+* def requestpayload = .................................................... passed
+Given path '/booking/1' ................................................... passed
+And request requestpayload ................................................ passed
+And header Content-Type = 'application/json' .............................. passed
+And header Accept = 'application/json' .................................... passed
+And header Authorization = 'Basic YWRtaW46cGFzc3dvcmQxMjM=' ............... passed
+When method PUT ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def jsonresponse = response ............................................. passed
+* print jsonresponse ...................................................... passed</system-out>
+  </testcase>
+</testsuite>

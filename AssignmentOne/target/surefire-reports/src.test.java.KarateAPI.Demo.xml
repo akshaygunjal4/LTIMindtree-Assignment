@@ -1,0 +1,121 @@
+<testsuite failures="4" name="src/test/java/KarateAPI/Demo.feature" skipped="0" tests="5" time="3.075074">
+  <testcase classname="src.test.java.KarateAPI.Demo" name="Ids of all booking" time="2.075291">
+    <system-out>Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'booking' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.KarateAPI.Demo" name="Ids of all booking - booking id not found" time="0.005488">
+    <failure message="Demo.feature:13 - request body is required for a PUT, please use the 'request' keyword">Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'booking' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method PUT ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:13 - request body is required for a PUT, please use the 'request' keyword&#13;
+	at ✽.When method PUT (Demo.feature:13)&#13;
+
+Then status 200 ........................................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.KarateAPI.Demo" name="Ids of all booking - booking id not found" time="0.002936">
+    <failure message="Demo.feature:19 - request body is required for a POST, please use the 'request' keyword">Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'booking' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method PUT ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:13 - request body is required for a PUT, please use the 'request' keyword&#13;
+	at ✽.When method PUT (Demo.feature:13)&#13;
+
+Then status 200 ........................................................... skipped
+Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'bookin' ......................................................... passed
+When method POST .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:19 - request body is required for a POST, please use the 'request' keyword&#13;
+	at ✽.When method POST (Demo.feature:19)&#13;
+
+Then status 200 ........................................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.KarateAPI.Demo" name="Ids of all booking - booking id not found" time="0.000538">
+    <failure message="Demo.feature:25 - request body is required for a PATCH, please use the 'request' keyword">Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'booking' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method PUT ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:13 - request body is required for a PUT, please use the 'request' keyword&#13;
+	at ✽.When method PUT (Demo.feature:13)&#13;
+
+Then status 200 ........................................................... skipped
+Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'bookin' ......................................................... passed
+When method POST .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:19 - request body is required for a POST, please use the 'request' keyword&#13;
+	at ✽.When method POST (Demo.feature:19)&#13;
+
+Then status 200 ........................................................... skipped
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method PATCH ......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:25 - request body is required for a PATCH, please use the 'request' keyword&#13;
+	at ✽.When method PATCH (Demo.feature:25)&#13;
+
+Then status 200 ........................................................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.KarateAPI.Demo" name="Ids of all booking - booking id not found" time="0.99082">
+    <failure message="Demo.feature:32 - status code was: 403, expected: 200, response time: 986, url: https://restful-booker.herokuapp.com/booking/1, response: Forbidden">Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'booking' ........................................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method PUT ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:13 - request body is required for a PUT, please use the 'request' keyword&#13;
+	at ✽.When method PUT (Demo.feature:13)&#13;
+
+Then status 200 ........................................................... skipped
+Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path 'bookin' ......................................................... passed
+When method POST .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:19 - request body is required for a POST, please use the 'request' keyword&#13;
+	at ✽.When method POST (Demo.feature:19)&#13;
+
+Then status 200 ........................................................... skipped
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method PATCH ......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:25 - request body is required for a PATCH, please use the 'request' keyword&#13;
+	at ✽.When method PATCH (Demo.feature:25)&#13;
+
+Then status 200 ........................................................... skipped
+Given url 'https://restful-booker.herokuapp.com/booking' .................. passed
+And path '1' .............................................................. passed
+When method DELETE ........................................................ passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: Demo.feature:32 - status code was: 403, expected: 200, response time: 986, url: https://restful-booker.herokuapp.com/booking/1, response: Forbidden&#13;
+	at ✽.Then status 200 (Demo.feature:32)</failure>
+  </testcase>
+</testsuite>

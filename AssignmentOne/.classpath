@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/selenium-api-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/selenium-chrome-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/chromeDriver jar/selenium-remote-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/auto-service-annotations-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/byte-buddy-1.14.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/checker-qual-3.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/error_prone_annotations-2.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/failsafe-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/failureaccess-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/guava-33.0.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/j2objc-annotations-2.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-api-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-api-events-1.34.1-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-context-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-exporter-logging-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-extension-incubator-1.34.1-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-common-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-extension-autoconfigure-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-logs-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-metrics-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-sdk-trace-1.34.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/opentelemetry-semconv-1.23.1-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-api-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-chrome-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-chromium-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-devtools-v85-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-devtools-v119-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-devtools-v120-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-devtools-v121-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-edge-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-firefox-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-http-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-ie-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-java-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-json-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-manager-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-os-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-remote-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-safari-driver-4.17.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ECS/Desktop/Selenium/jar_files/selenium-support-4.17.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/KarateAPI/DELETE.feature" skipped="0" tests="1" time="1.953767">
+  <testcase classname="src.test.java.KarateAPI.DELETE" name="ID for the booking you want to update" time="1.953767">
+    <system-out>Given url 'https://restful-booker.herokuapp.com' .......................... passed
+And path '/booking/3' ..................................................... passed
+And header Cookie = 'token=&lt;token_value&gt;' ................................. passed
+And header Authorization = 'Basic YWRtaW46cGFzc3dvcmQxMjM=' ............... passed
+When method delete ........................................................ passed
+Then status 201 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

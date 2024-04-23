@@ -1,0 +1,13 @@
+<testsuite failures="0" name="src/test/java/KarateAPI/Post.feature" skipped="0" tests="1" time="2.804708">
+  <testcase classname="src.test.java.KarateAPI.Post" name="Create user" time="2.804708">
+    <system-out>* url 'https://restful-booker.herokuapp.com' .............................. passed
+* def requestpayload = .................................................... passed
+Given path '/auth' ........................................................ passed
+And request requestpayload ................................................ passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def jsonresponse = response ............................................. passed
+* print jsonresponse ...................................................... passed</system-out>
+  </testcase>
+</testsuite>
